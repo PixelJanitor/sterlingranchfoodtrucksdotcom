@@ -10,7 +10,9 @@ const Home: NextPage = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main>Sterling Ranch food trucks</main>
+      <main className='h-screen flex items-center justify-center'>
+        <div>Hi.</div>
+      </main>
     </>
   )
 }
