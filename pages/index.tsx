@@ -1,3 +1,4 @@
+import FoodTruck from '@/components/FoodTruck'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
@@ -11,7 +12,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className='h-screen flex items-center justify-center'>
-        <div>Hi.</div>
+        <FoodTruck />
       </main>
     </>
   )
