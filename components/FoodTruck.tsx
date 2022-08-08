@@ -91,7 +91,6 @@ const FoodTruck: React.FC = () => {
         <motion.g
           animate={{
             y: [0, 1, 0],
-            rotate: ['-.1deg', '.1deg', '-.1deg'],
             transition: { duration: 0.5, repeat: Infinity }
           }}
         >
