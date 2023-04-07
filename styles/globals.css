@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .border {
-  @apply initial:bg-primary;
-  @apply initial:border-black/5 initial:dark:border-white/15;
-  background-clip: padding-box;
-} */
+@supports (height: 100dvh) {
+  .h-screen {
+    height: 100dvh;
+  }
+}
