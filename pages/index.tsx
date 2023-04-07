@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className='h-screen flex items-center justify-center'>
+      <main className='flex h-screen items-center justify-center'>
         <FoodTruck />
       </main>
     </>
