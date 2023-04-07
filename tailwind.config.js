@@ -129,7 +129,7 @@ module.exports = {
   },
   plugins: [
     plugin(function ({ addVariant }) {
-      addVariant('supports-bg-blur', '@supports (backdrop-filter: blur())'), addVariant('initial', 'html :where(&)')
+      addVariant('initial', 'html :where(&)')
     })
   ]
 }
