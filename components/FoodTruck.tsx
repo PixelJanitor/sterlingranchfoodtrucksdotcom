@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+import { m } from 'framer-motion'
 
 const FoodTruck: React.FC = () => {
   const foodTruck = {
@@ -9,8 +9,8 @@ const FoodTruck: React.FC = () => {
 
   return (
     <div className='relative w-[184px] overflow-hidden pt-6'>
-      <motion.svg
-        className='absolute top-0 right-0'
+      <m.svg
+        className='absolute right-0 top-0'
         animate={foodTruck.mountains}
         width='370'
         height='60'
@@ -53,9 +53,9 @@ const FoodTruck: React.FC = () => {
           strokeLinecap='round'
           strokeLinejoin='round'
         />
-      </motion.svg>
+      </m.svg>
 
-      <motion.svg
+      <m.svg
         animate={foodTruck.road}
         className='absolute bottom-px right-0'
         width='378'
@@ -78,17 +78,17 @@ const FoodTruck: React.FC = () => {
         <path d='M117 1L138 1' stroke='black' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
         <path d='M147 1L167 1' stroke='black' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
         <path d='M176 1L185 1' stroke='black' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
-      </motion.svg>
+      </m.svg>
 
       <svg
-        className='mx-auto relative bottom-xs'
+        className='relative bottom-xs mx-auto'
         width='120'
         height='98'
         viewBox='0 0 120 98'
         fill='none'
         xmlns='http://www.w3.org/2000/svg'
       >
-        <motion.g
+        <m.g
           animate={{
             y: [0, 1, 0],
             transition: { duration: 0.5, repeat: Infinity }
@@ -223,17 +223,17 @@ const FoodTruck: React.FC = () => {
             strokeWidth='2'
             strokeLinecap='round'
           />
-        </motion.g>
+        </m.g>
         <circle cx='23' cy='86' r='11' stroke='black' strokeWidth='2' />
         <circle cx='92' cy='86' r='11' stroke='black' strokeWidth='2' />
-        <motion.path
+        <m.path
           animate={foodTruck.wheels}
           d='M90.3333 81.2845C90.8546 81.1003 91.4156 81 92 81C94.7614 81 97 83.2386 97 86C97 88.7614 94.7614 91 92 91C89.2386 91 87 88.7614 87 86C87 85.4156 87.1003 84.8546 87.2845 84.3333'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
         />
-        <motion.path
+        <m.path
           animate={foodTruck.wheels}
           d='M27.7155 84.3333C27.8997 84.8546 28 85.4156 28 86C28 88.7614 25.7614 91 23 91C20.2386 91 18 88.7614 18 86C18 83.2386 20.2386 81 23 81C23.5844 81 24.1454 81.1003 24.6667 81.2845'
           stroke='black'

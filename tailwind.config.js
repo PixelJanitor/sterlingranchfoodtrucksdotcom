@@ -3,7 +3,7 @@ const plugin = require('tailwindcss/plugin')
 function spacing() {
   const scale = Array(101)
     .fill(null)
-    .map((_, i) => [i * 0.5, `${i * 0.5 * 8}px`])
+    .map((_, i) => [i * 0.5, `${i * 0.5 * 4}px`])
   const values = Object.fromEntries(scale)
   values.px = '1px'
   values.xs = '2px'
@@ -123,9 +123,19 @@ module.exports = {
         900: '#27124a'
       }
     },
+    fontSize: {
+      sm: '13px',
+      base: '15px',
+      lg: '17px'
+    },
     opacity: opacity(),
     spacing: spacing(),
-    extend: {}
+    extend: {
+      container: ({ theme }) => ({
+        center: true,
+        padding: theme('spacing.2')
+      })
+    }
   },
   plugins: [
     plugin(function ({ addVariant }) {
