@@ -4,6 +4,8 @@ import { CalendarItem } from '@/utils/types'
 import { data } from 'data/april-2023'
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import { useEffect } from 'react'
+import { dasherize } from '@/utils/dasherize'
 
 const Home: NextPage = () => {
   function getDayWithSuffix(day: number): String {
@@ -37,6 +39,13 @@ const Home: NextPage = () => {
     return currentDay > dayAsNumber
   }
 
+  useEffect(() => {
+    // Update the URL with an anchor link to the element with an ID of 'my-element'
+    const url = new URL(window.location.href)
+    url.hash = dasherize(formattedToday)
+    window.history.replaceState(null, '', url)
+  }, [formattedToday])
+
   return (
     <>
       <Head>
@@ -46,13 +55,13 @@ const Home: NextPage = () => {
       </Head>
 
       <main className='relative h-screen snap-y overflow-y-scroll'>
-        <div className='container max-w-lg space-y-3'>
+        <div className='container max-w-lg space-y-3 pt-6'>
           {data.map((day, index) => (
             <CalendarDay key={index} day={day} isToday={getIsToday(day)} isPast={getIsPast(day)} />
           ))}
         </div>
 
-        <div className='fixed inset-x-0 bottom-0 flex h-[256px] items-end justify-center bg-gradient-to-t from-white via-white pb-3 pt-50'>
+        <div className='pointer-events-none fixed inset-x-0 bottom-0 flex h-[256px] items-end justify-center bg-gradient-to-t from-white via-white pb-3 pt-50'>
           <FoodTruck />
         </div>
       </main>

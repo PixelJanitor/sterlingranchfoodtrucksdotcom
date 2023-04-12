@@ -126,7 +126,7 @@ module.exports = {
     fontSize: {
       sm: '13px',
       base: '15px',
-      lg: '17px'
+      lg: '19px'
     },
     opacity: opacity(),
     spacing: spacing(),
