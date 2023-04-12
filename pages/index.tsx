@@ -40,10 +40,9 @@ const Home: NextPage = () => {
   }
 
   useEffect(() => {
-    // Update the URL with an anchor link to the element with an ID of 'my-element'
-    const url = new URL(window.location.href)
-    url.hash = dasherize(formattedToday)
-    window.history.replaceState(null, '', url)
+    if (typeof window !== 'undefined') {
+      window.location.replace(`#${dasherize(formattedToday)}`)
+    }
   }, [formattedToday])
 
   return (
