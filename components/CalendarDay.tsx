@@ -33,16 +33,6 @@ export const CalendarDay = ({ day, isToday, isPast }: Props) => {
             <div className={isToday ? 'text-white' : 'text-gray-300'}>
               {isToday && <span className='text-gray-400'>Today:</span>} {day.day}, {day.date}
             </div>
-            {/* <div className='flex items-center'>
-              {isToday && (
-                <a
-                  href={day.url}
-                  className='inline-flex h-6 items-center justify-center rounded bg-white px-2 text-sm font-semibold text-gray-900'
-                >
-                  View menu
-                </a>
-              )}
-            </div> */}
           </div>
 
           <div
@@ -50,7 +40,18 @@ export const CalendarDay = ({ day, isToday, isPast }: Props) => {
               'text-lg': isToday
             })}
           >
-            {day.name}
+            {day.url && (
+              <a
+                href={day.url}
+                target='_blank'
+                className={cn('text-blue-600', {
+                  'text-blue-500': isToday
+                })}
+              >
+                {day.name}
+              </a>
+            )}
+            {!day.url && day.name}
           </div>
         </div>
 

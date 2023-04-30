@@ -1,7 +1,7 @@
 import FoodTruck from '@/components/FoodTruck'
 import { CalendarDay } from '@/components/CalendarDay'
 import { CalendarItem } from '@/utils/types'
-import { data } from 'data/april-2023'
+import { data } from 'data'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { useEffect } from 'react'
@@ -36,7 +36,7 @@ const Home: NextPage = () => {
 
   function getIsPast(day: CalendarItem) {
     const dayAsNumber = Number(day.date.split(' ')[1].slice(0, -2))
-    return currentDay > dayAsNumber
+    return currentDay > dayAsNumber && day.date.split(' ')[0] === currentMonth
   }
 
   useEffect(() => {
