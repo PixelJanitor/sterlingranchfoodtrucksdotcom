@@ -36,13 +36,6 @@ const Home: NextPage = () => {
 
   function getIsPast(day: CalendarItem) {
     const dayAsNumber = Number(day.date.split(' ')[1].slice(0, -2))
-    console.log(
-      "currentDay > dayAsNumber && day.date.split(' ')[0] === currentMonth",
-      currentDay,
-      dayAsNumber,
-      day.date.split(' ')[0],
-      currentMonth
-    )
     return (
       (currentDay > dayAsNumber && day.date.split(' ')[0] === currentMonth) || day.date.split(' ')[0] != currentMonth
     )
