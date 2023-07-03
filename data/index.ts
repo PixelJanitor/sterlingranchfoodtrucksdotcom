@@ -367,6 +367,7 @@ export const data: CalendarItem[] = [
     name: 'Originals by Greeks',
     url: 'http://originaldenver.square.site/'
   },
+
   {
     day: 'Thursday',
     date: 'Jun 1st',
@@ -546,5 +547,192 @@ export const data: CalendarItem[] = [
     date: 'Jun 30th',
     name: 'Los Dos',
     url: 'http://www.los2potrillos.com/'
+  },
+
+  {
+    day: 'Saturday',
+    date: 'Jul 1st',
+    name: 'No Food Trucks',
+    url: ''
+  },
+  {
+    day: 'Sunday',
+    date: 'Jul 2nd',
+    name: 'No Food Truck',
+    url: ''
+  },
+  {
+    day: 'Monday',
+    date: 'Jul 3rd',
+    name: 'Deja Roux',
+    url: 'https://dejarouxfoodtruck.com/deja-roux-online-ordering/'
+  },
+  {
+    day: 'Tuesday',
+    date: 'Jul 4th',
+    name: 'No Food Truck',
+    url: ''
+  },
+  {
+    day: 'Wednesday',
+    date: 'Jul 5th',
+    name: 'Big Apple Bodega',
+    url: 'https://bigapplebodega.co/?fbclid=IwAR19Oid8UukP0BJWpaIOJ4cQKvU5p3RhmZ96klj-gPu9-jxYgnexG4kKJFs'
+  },
+  {
+    day: 'Thursday',
+    date: 'Jul 6th',
+    name: 'Woodhill Small Batch BBQ',
+    url: 'http://woodhillsmallbatchbbq.com/'
+  },
+  {
+    day: 'Friday',
+    date: 'Jul 7th',
+    name: 'Fanwich',
+    url: 'https://www.fanwichfoodtruck.com/menu'
+  },
+  {
+    day: 'Saturday',
+    date: 'Jul 8th',
+    name: 'Los Chamacos',
+    url: 'https://www.facebook.com/people/El-chamacos-taco-dealer-my-legacy/100057675699460/'
+  },
+  {
+    day: 'Sunday',
+    date: 'Jul 9th',
+    name: 'Turkish Chef on Wheels',
+    url: 'https://www.turkishchefonwheels.com/'
+  },
+  {
+    day: 'Monday',
+    date: 'Jul 10th',
+    name: 'TBD',
+    url: ''
+  },
+  {
+    day: 'Tuesday',
+    date: 'Jul 11th',
+    name: 'Elevation 5280',
+    url: 'https://www.facebook.com/5280wings/'
+  },
+  {
+    day: 'Wednesday',
+    date: 'Jul 12th',
+    name: 'Farmhouse 5280',
+    url: 'https://www.farmhouse5280.com/'
+  },
+  {
+    day: 'Thursday',
+    date: 'Jul 13th',
+    name: 'Schnitzelwirts',
+    url: 'http://www.schnitzelwirt.us/'
+  },
+  {
+    day: 'Friday',
+    date: 'Jul 14th',
+    name: 'Los Dos',
+    url: 'http://www.los2potrillos.com/'
+  },
+  {
+    day: 'Saturday',
+    date: 'Jul 15th',
+    name: "Tula's Tapas",
+    url: 'https://www.tulastapas.com/'
+  },
+  {
+    day: 'Sunday',
+    date: 'Jul 16th',
+    name: 'Big Apple Bodega',
+    url: 'https://bigapplebodega.co/?fbclid=IwAR19Oid8UukP0BJWpaIOJ4cQKvU5p3RhmZ96klj-gPu9-jxYgnexG4kKJFs'
+  },
+  {
+    day: 'Monday',
+    date: 'Jul 17th',
+    name: 'Los Chamacos',
+    url: 'https://www.facebook.com/people/El-chamacos-taco-dealer-my-legacy/100057675699460/'
+  },
+  {
+    day: 'Tuesday',
+    date: 'Jul 18th',
+    name: 'Chibby Wibbits',
+    url: 'https://chibbywibbitz.com/'
+  },
+  {
+    day: 'Wednesday',
+    date: 'Jul 19th',
+    name: 'Lucky Bird',
+    url: 'https://luckybirdco.com/'
+  },
+  {
+    day: 'Thursday',
+    date: 'Jul 20th',
+    name: 'Woodhill Small Batch BBQ',
+    url: 'http://woodhillsmallbatchbbq.com/'
+  },
+  {
+    day: 'Friday',
+    date: 'Jul 21st',
+    name: 'TBD',
+    url: ''
+  },
+  {
+    day: 'Saturday',
+    date: 'Jul 22nd',
+    name: 'Cruz In & Eat (1-8 pm)',
+    url: 'https://cruz-in-eat.square.site/'
+  },
+  {
+    day: 'Sunday',
+    date: 'Jul 23rd',
+    name: 'Fanwich',
+    url: 'https://www.fanwichfoodtruck.com/menu'
+  },
+  {
+    day: 'Monday',
+    date: 'Jul 24th',
+    name: 'Market 86',
+    url: 'https://www.facebook.com/franktownmarket86/'
+  },
+  {
+    day: 'Tuesday',
+    date: 'Jul 25th',
+    name: 'Sizzle',
+    url: 'https://www.sizzlefoodtruck.com/menu.html'
+  },
+  {
+    day: 'Wednesday',
+    date: 'Jul 26th',
+    name: 'Rag Bag Bistro',
+    url: 'https://roaminghunger.com/ragbag-mobile/'
+  },
+  {
+    day: 'Thursday',
+    date: 'Jul 27th',
+    name: 'High Society Pizza',
+    url: 'https://www.highsocietypizza.com/menu'
+  },
+  {
+    day: 'Friday',
+    date: 'Jul 28th',
+    name: 'Los Dos',
+    url: 'http://www.los2potrillos.com/'
+  },
+  {
+    day: 'Saturday',
+    date: 'Jul 29th',
+    name: 'Turkish Chef on Wheels',
+    url: 'https://www.turkishchefonwheels.com/'
+  },
+  {
+    day: 'Sunday',
+    date: 'Jul 30th',
+    name: 'Big Belly Bros BBQ',
+    url: 'https://www.bigbellybrothersbbq.com/'
+  },
+  {
+    day: 'Monday',
+    date: 'Jul 31st',
+    name: 'Elevation 5280',
+    url: 'https://www.facebook.com/5280wings/'
   }
 ]
