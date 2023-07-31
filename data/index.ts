@@ -35,13 +35,13 @@ export const data: CalendarItem[] = [
     day: 'Thursday',
     date: 'Apr 6th',
     name: 'Woodhill Small Batch BBQ',
-    url: ''
+    url: 'http://woodhillsmallbatchbbq.com/'
   },
   {
     day: 'Friday',
     date: 'Apr 7th',
     name: 'Rolling Italian',
-    url: ''
+    url: 'https://rollingitalianonline.square.site/'
   },
   {
     day: 'Saturday',
@@ -89,7 +89,7 @@ export const data: CalendarItem[] = [
     day: 'Saturday',
     date: 'Apr 15th',
     name: 'Chibby Wibbitz',
-    url: ''
+    url: 'https://chibbywibbitz.com/foodtruck'
   },
   {
     day: 'Sunday',
@@ -107,7 +107,7 @@ export const data: CalendarItem[] = [
     day: 'Tuesday',
     date: 'Apr 18th',
     name: 'Revolver',
-    url: ''
+    url: 'https://www.revolverfoodtruck.com/menus'
   },
   {
     day: 'Wednesday',
@@ -119,7 +119,7 @@ export const data: CalendarItem[] = [
     day: 'Thursday',
     date: 'Apr 20th',
     name: 'Woodhill Small Batch BBQ',
-    url: ''
+    url: 'http://woodhillsmallbatchbbq.com/'
   },
   {
     day: 'Friday',
@@ -167,13 +167,13 @@ export const data: CalendarItem[] = [
     day: 'Friday',
     date: 'Apr 28th',
     name: 'Simply Le Crepes',
-    url: ''
+    url: 'https://www.simplylecrepes.com/'
   },
   {
     day: 'Saturday',
     date: 'Apr 29th',
     name: 'Originals by Greeks',
-    url: ''
+    url: 'https://www.originaldenver.com/menus'
   },
   {
     day: 'Sunday',
@@ -305,7 +305,7 @@ export const data: CalendarItem[] = [
     day: 'Sunday',
     date: 'May 21st',
     name: 'Chibby Wibbitz',
-    url: 'http://chibby-wibbitz-llc.square.site/'
+    url: 'http://chibby-whttps://chibbywibbitz.com/foodtruckibbitz-llc.square.site/'
   },
   {
     day: 'Monday',
@@ -734,5 +734,191 @@ export const data: CalendarItem[] = [
     date: 'Jul 31st',
     name: 'Elevation 5280',
     url: 'https://www.facebook.com/5280wings/'
+  },
+  {
+    day: 'Tuesday',
+    date: 'Aug 1st',
+    name: 'Rolling Italian',
+    url: 'https://rollingitalianonline.square.site/'
+  },
+  {
+    day: 'Wednesday',
+    date: 'Aug 2nd',
+    name: 'Lucky Bird & What Would Cheesus Do & Kona Ice @ Providence Park',
+    url: 'https://www.facebook.com/whatwouldcheesusdo/'
+  },
+  {
+    day: 'Thursday',
+    date: 'Aug 3rd',
+    name: 'Woodhill Small Batch BBQ',
+    url: 'http://woodhillsmallbatchbbq.com/'
+  },
+  {
+    day: 'Friday',
+    date: 'Aug 4th',
+    name: 'Revolver & Kona Ice',
+    url: 'https://www.revolverfoodtruck.com/menus'
+  },
+  {
+    day: 'Saturday',
+    date: 'Aug 5th',
+    name: 'No Truck',
+    url: ''
+  },
+  {
+    day: 'Sunday',
+    date: 'Aug 6th',
+    name: 'Simply Le Crepes',
+    url: 'https://www.simplylecrepes.com/'
+  },
+  {
+    day: 'Monday',
+    date: 'Aug 7th',
+    name: 'No Truck',
+    url: ''
+  },
+  {
+    day: 'Tuesday',
+    date: 'Aug 8th',
+    name: 'No Truck',
+    url: ''
+  },
+  {
+    day: 'Wednesday',
+    date: 'Aug 9th',
+    name: 'Big Apple Bodega',
+    url: 'https://roaminghunger.com/big-apple-bodega/'
+  },
+  {
+    day: 'Thursday',
+    date: 'Aug 10th',
+    name: 'Los Chamacos',
+    url: 'https://www.facebook.com/people/El-chamacos-taco-dealer-my-legacy/100057675699460/'
+  },
+  {
+    day: 'Friday',
+    date: 'Aug 11th',
+    name: 'Los Dos',
+    url: 'http://www.los2potrillos.com/'
+  },
+  {
+    day: 'Saturday',
+    date: 'Aug 12th',
+    name: 'Seasoned Swine',
+    url: 'https://www.seasonedswine.com/food-truck'
+  },
+  {
+    day: 'Sunday',
+    date: 'Aug 13th',
+    name: 'Market 86',
+    url: 'https://www.facebook.com/franktownmarket86/'
+  },
+  {
+    day: 'Monday',
+    date: 'Aug 14th',
+    name: 'What Would Cheesus Do',
+    url: 'https://www.facebook.com/whatwouldcheesusdo/'
+  },
+  {
+    day: 'Tuesday',
+    date: 'Aug 15th',
+    name: 'Big Apple Bodega',
+    url: 'https://roaminghunger.com/big-apple-bodega/'
+  },
+  {
+    day: 'Wednesday',
+    date: 'Aug 16th',
+    name: "Tula's Tapas",
+    url: 'https://tulas-tapas-and-culinary-creations.square.site/'
+  },
+  {
+    day: 'Thursday',
+    date: 'Aug 17th',
+    name: 'Woodhill Small Batch BBQ',
+    url: 'http://woodhillsmallbatchbbq.com/'
+  },
+  {
+    day: 'Friday',
+    date: 'Aug 18th',
+    name: 'Rolling Italian',
+    url: 'https://rollingitalianonline.square.site/'
+  },
+  {
+    day: 'Saturday',
+    date: 'Aug 19th',
+    name: "Smokin Zo's",
+    url: 'http://smokinzos.com/menu/'
+  },
+  {
+    day: 'Sunday',
+    date: 'Aug 20th',
+    name: 'No Truck',
+    url: ''
+  },
+  {
+    day: 'Monday',
+    date: 'Aug 21st',
+    name: "Mona's Mobile Kitchen",
+    url: ''
+  },
+  {
+    day: 'Tuesday',
+    date: 'Aug 22nd',
+    name: 'Revolver',
+    url: 'https://www.revolverfoodtruck.com/menus'
+  },
+  {
+    day: 'Wednesday',
+    date: 'Aug 23rd',
+    name: 'Originals by Greeks',
+    url: 'https://www.originaldenver.com/menus'
+  },
+  {
+    day: 'Thursday',
+    date: 'Aug 24th',
+    name: 'Chibby Wibbitz',
+    url: 'https://chibbywibbitz.com/foodtruck'
+  },
+  {
+    day: 'Friday',
+    date: 'Aug 25th',
+    name: 'Los Dos',
+    url: 'http://www.los2potrillos.com/'
+  },
+  {
+    day: 'Saturday',
+    date: 'Aug 26th',
+    name: 'Los Chamacos',
+    url: 'https://www.facebook.com/people/El-chamacos-taco-dealer-my-legacy/100057675699460/'
+  },
+  {
+    day: 'Sunday',
+    date: 'Aug 27th',
+    name: "Smokin Zo's",
+    url: 'http://smokinzos.com/menu/'
+  },
+  {
+    day: 'Monday',
+    date: 'Aug 28th',
+    name: 'Elevation 5280',
+    url: 'https://www.facebook.com/5280wings/'
+  },
+  {
+    day: 'Tuesday',
+    date: 'Aug 29th',
+    name: 'Big Apple Bodega',
+    url: 'https://roaminghunger.com/big-apple-bodega/'
+  },
+  {
+    day: 'Wednesday',
+    date: 'Aug 30th',
+    name: 'Rag Bag Bistro',
+    url: 'https://roaminghunger.com/ragbag-mobile/'
+  },
+  {
+    day: 'Thursday',
+    date: 'Aug 31st',
+    name: 'Seasoned Swine',
+    url: 'https://www.seasonedswine.com/food-truck'
   }
 ]
