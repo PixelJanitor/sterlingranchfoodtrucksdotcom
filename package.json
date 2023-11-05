@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "import-trucks": "node ./script/import-trucks.ts && prettier ./data/index.ts --write"
   },
   "dependencies": {
     "clsx": "^1.2.1",
+    "date-fns": "^2.30.0",
     "framer-motion": "^10.11.2",
     "next": "13.3.0",
     "react": "18.2.0",
