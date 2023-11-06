@@ -2,189 +2,183 @@ import { CalendarItem } from '@/utils/types'
 
 export const data: CalendarItem[] = [
   {
-    day: 'Sunday',
-    date: 'Oct 1st',
-    name: 'Tacos Al Sabor',
+    date: 'Nov 1st',
+    name: 'TBD',
+    day: 'Wednesday',
     url: ''
   },
   {
-    day: 'Monday',
-    date: 'Oct 2nd',
-    name: 'Rolling Italian & HipPOPs',
-    url: 'https://rollingitalianonline.square.site'
-  },
-  {
-    day: 'Tuesday',
-    date: 'Oct 3rd',
-    name: 'Revolver',
-    url: 'https://www.revolverfoodtruck.com/menus'
-  },
-  {
-    day: 'Wednesday',
-    date: 'Oct 4th',
-    name: ' Samos Grill',
-    url: 'https://roaminghunger.com/samos-grill/'
-  },
-  {
-    day: 'Thursday',
-    date: 'Oct 5th',
+    date: 'Nov 2nd',
     name: 'Woodhill Small Batch BBQ',
+    day: 'Thursday',
     url: 'http://woodhillsmallbatchbbq.com/'
   },
   {
+    date: 'Nov 3rd',
+    name: 'Los Dos Potrillos',
     day: 'Friday',
-    date: 'Oct 6th',
-    name: 'Los Dos',
     url: 'http://www.los2potrillos.com/'
   },
   {
+    date: 'Nov 4th',
+    name: "Still Smokin BBQ, Mike's Coneys & HipPOPs at the Overlook Clubhouse 11:00 am - 2:00 pm; Simply Le Crepes 4:00 pm - 8:00 pm at the Sterling Center",
     day: 'Saturday',
-    date: 'Oct 7th',
+    url: ''
+  },
+  {
+    date: 'Nov 5th',
+    name: 'Tacos Al Sabor',
+    day: 'Sunday',
+    url: ''
+  },
+  {
+    date: 'Nov 6th',
+    name: 'Big Belly BBQ',
+    day: 'Monday',
+    url: ''
+  },
+  {
+    date: 'Nov 7th',
     name: 'Los Chamacos',
+    day: 'Tuesday',
     url: 'https://www.facebook.com/people/El-chamacos-taco-dealer-my-legacy/100057675699460/'
   },
   {
-    day: 'Sunday',
-    date: 'Oct 8th',
-    name: 'No Food Truck',
-    url: ''
-  },
-  {
-    day: 'Monday',
-    date: 'Oct 9th',
-    name: 'No Food Truck',
-    url: ''
-  },
-  {
-    day: 'Tuesday',
-    date: 'Oct 10th',
-    name: 'Rag Bag BIstro',
-    url: ''
-  },
-  {
-    day: 'Wednesday',
-    date: 'Oct 11th',
-    name: 'Arepa’s Caribbean Food & Simply Le Crepes',
-    url: ''
-  },
-  {
-    day: 'Thursday',
-    date: 'Oct 12th',
-    name: 'PinkTank',
-    url: 'https://www.eatpinkgettanked.com/'
-  },
-  {
-    day: 'Friday',
-    date: 'Oct 13th',
-    name: 'Schnitzelwirts ',
-    url: ''
-  },
-  {
-    day: 'Saturday',
-    date: 'Oct 14th',
-    name: ' Originals by Greeks ',
-    url: ''
-  },
-  {
-    day: 'Sunday',
-    date: 'Oct 15th',
-    name: 'MIke’s Coneys (3pm - 8 pm)',
-    url: ''
-  },
-  {
-    day: 'Monday',
-    date: 'Oct 16th',
-    name: 'Seasoned Swine & HipPops',
-    url: ''
-  },
-  {
-    day: 'Tuesday',
-    date: 'Oct 17th',
-    name: 'Sizzle',
-    url: 'https://www.sizzlefoodtruck.com/menu.html'
-  },
-  {
-    day: 'Wednesday',
-    date: 'Oct 18th',
-    name: 'Isan Thai',
-    url: ''
-  },
-  {
-    day: 'Thursday',
-    date: 'Oct 19th',
-    name: 'Woodhill Small Batch BBQ',
-    url: 'http://woodhillsmallbatchbbq.com/'
-  },
-  {
-    day: 'Friday',
-    date: 'Oct 20th',
-    name: 'Los Dos',
-    url: 'http://www.los2potrillos.com/'
-  },
-  {
-    day: 'Saturday',
-    date: 'Oct 21st',
-    name: 'Arepa’s Caribbean Food',
-    url: ''
-  },
-  {
-    day: 'Sunday',
-    date: 'Oct 22nd',
-    name: 'Tacos Al Sabor',
-    url: ''
-  },
-  {
-    day: 'Monday',
-    date: 'Oct 23rd',
-    name: 'Big Belly BBQ',
-    url: ''
-  },
-  {
-    day: 'Tuesday',
-    date: 'Oct 24th',
-    name: 'Rag Bag Bistro',
-    url: ''
-  },
-  {
-    day: 'Wednesday',
-    date: 'Oct 25th',
-    name: 'Revolver',
-    url: 'https://www.revolverfoodtruck.com/menus'
-  },
-  {
-    day: 'Thursday',
-    date: 'Oct 26th',
+    date: 'Nov 8th',
     name: 'Rolling Italian',
+    day: 'Wednesday',
     url: 'https://rollingitalianonline.square.site/'
   },
   {
+    date: 'Nov 9th',
+    name: 'Revolver Food Truck',
+    day: 'Thursday',
+    url: 'https://www.revolverfoodtruck.com/menus'
+  },
+  {
+    date: 'Nov 10th',
+    name: 'Deja Roux',
     day: 'Friday',
-    date: 'Oct 27th',
+    url: ''
+  },
+  {
+    date: 'Nov 11th',
     name: 'Seasoned Swine',
+    day: 'Saturday',
     url: 'https://www.seasonedswine.com/food-truck'
   },
   {
-    day: 'Saturday',
-    date: 'Oct 28th',
-    name: 'TBD & Simply Le Crepes',
-    url: ''
-  },
-  {
-    day: 'Sunday',
-    date: 'Oct 29th',
-    name: 'Market 86',
-    url: 'https://www.facebook.com/franktownmarket86/'
-  },
-  {
-    day: 'Monday',
-    date: 'Oct 30th',
+    date: 'Nov 12th',
     name: 'TBD',
+    day: 'Sunday',
     url: ''
   },
   {
+    date: 'Nov 13th',
+    name: 'Cirque Kitchen',
+    day: 'Monday',
+    url: ''
+  },
+  {
+    date: 'Nov 14th',
+    name: 'Big Belly BBQ',
     day: 'Tuesday',
-    date: 'Oct 31st',
-    name: 'Ez Eats',
+    url: ''
+  },
+  {
+    date: 'Nov 15th',
+    name: 'Sizzle Food Truck',
+    day: 'Wednesday',
+    url: 'https://www.sizzlefoodtruck.com/menu.html'
+  },
+  {
+    date: 'Nov 16th',
+    name: 'Woodhill Small Batch BBQ',
+    day: 'Thursday',
+    url: 'http://woodhillsmallbatchbbq.com/'
+  },
+  {
+    date: 'Nov 17th',
+    name: 'Los Dos Potrillos',
+    day: 'Friday',
+    url: 'http://www.los2potrillos.com/'
+  },
+  {
+    date: 'Nov 18th',
+    name: 'Isan Thai',
+    day: 'Saturday',
+    url: ''
+  },
+  {
+    date: 'Nov 19th',
+    name: 'Tacos Al Sabor',
+    day: 'Sunday',
+    url: ''
+  },
+  {
+    date: 'Nov 20th',
+    name: 'Samos Grill & HipPOPs',
+    day: 'Monday',
+    url: 'https://roaminghunger.com/samos-grill/'
+  },
+  {
+    date: 'Nov 21st',
+    name: 'Turkish Chef',
+    day: 'Tuesday',
+    url: ''
+  },
+  {
+    date: 'Nov 22nd',
+    name: 'Samos Grill',
+    day: 'Wednesday',
+    url: 'https://roaminghunger.com/samos-grill/'
+  },
+  {
+    date: 'Nov 23rd',
+    name: 'No Truck',
+    day: 'Thursday',
+    url: ''
+  },
+  {
+    date: 'Nov 24th',
+    name: 'No Truck',
+    day: 'Friday',
+    url: ''
+  },
+  {
+    date: 'Nov 25th',
+    name: 'Simply Le Crepes',
+    day: 'Saturday',
+    url: ''
+  },
+  {
+    date: 'Nov 26th',
+    name: 'Rolling Italian',
+    day: 'Sunday',
+    url: 'https://rollingitalianonline.square.site/'
+  },
+  {
+    date: 'Nov 27th',
+    name: 'TBD',
+    day: 'Monday',
+    url: ''
+  },
+  {
+    date: 'Nov 28th',
+    name: 'Sizzle Food Truck',
+    day: 'Tuesday',
+    url: 'https://www.sizzlefoodtruck.com/menu.html'
+  },
+  {
+    date: 'Nov 29th',
+    name: 'Areas Caribbean Food',
+    day: 'Wednesday',
+    url: ''
+  },
+  {
+    date: 'Nov 30th',
+    name: 'High Society Pizza',
+    day: 'Thursday',
     url: ''
   }
 ]
