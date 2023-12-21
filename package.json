@@ -10,6 +10,7 @@
     "import-trucks": "node ./script/import-trucks.ts && prettier ./data/index.ts --write"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.1.1",
     "clsx": "^1.2.1",
     "date-fns": "^2.30.0",
     "framer-motion": "^10.11.2",
