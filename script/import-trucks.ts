@@ -12,7 +12,11 @@ const URL_MAP = {
   Sizzle: 'https://www.sizzlefoodtruck.com/menu.html',
   'Rolling Italian': 'https://rollingitalianonline.square.site/',
   'Seasoned Swine': 'https://www.seasonedswine.com/food-truck',
-  'Market 86': 'https://www.facebook.com/franktownmarket86/'
+  'Market 86': 'https://www.facebook.com/franktownmarket86/',
+  'Deja Roux': 'https://order.toasttab.com/online/deja-roux',
+  'Krazy Thai': 'https://www.krazythaifood.com/menu/menu',
+  'Turkish Chef': 'https://www.turkishchefonwheels.com/#8',
+  'Arepas Caribbean': 'https://gotruckster.com/food-truck/arepas-caribbean-food#menu'
 }
 
 function formatInput(rawInput, dateFormat) {

@@ -2,183 +2,189 @@ import { CalendarItem } from '@/utils/types'
 
 export const data: CalendarItem[] = [
   {
-    date: 'Nov 1st',
-    name: 'TBD',
-    day: 'Wednesday',
-    url: ''
-  },
-  {
-    date: 'Nov 2nd',
-    name: 'Woodhill Small Batch BBQ',
-    day: 'Thursday',
-    url: 'http://woodhillsmallbatchbbq.com/'
-  },
-  {
-    date: 'Nov 3rd',
-    name: 'Los Dos Potrillos',
+    date: 'Dec 1st',
+    name: 'Revolver',
     day: 'Friday',
-    url: 'http://www.los2potrillos.com/'
-  },
-  {
-    date: 'Nov 4th',
-    name: "Still Smokin BBQ, Mike's Coneys & HipPOPs at the Overlook Clubhouse 11:00 am - 2:00 pm; Simply Le Crepes 4:00 pm - 8:00 pm at the Sterling Center",
-    day: 'Saturday',
-    url: ''
-  },
-  {
-    date: 'Nov 5th',
-    name: 'Tacos Al Sabor',
-    day: 'Sunday',
-    url: ''
-  },
-  {
-    date: 'Nov 6th',
-    name: 'Big Belly BBQ',
-    day: 'Monday',
-    url: ''
-  },
-  {
-    date: 'Nov 7th',
-    name: 'Los Chamacos',
-    day: 'Tuesday',
-    url: 'https://www.facebook.com/people/El-chamacos-taco-dealer-my-legacy/100057675699460/'
-  },
-  {
-    date: 'Nov 8th',
-    name: 'Rolling Italian',
-    day: 'Wednesday',
-    url: 'https://rollingitalianonline.square.site/'
-  },
-  {
-    date: 'Nov 9th',
-    name: 'Revolver Food Truck',
-    day: 'Thursday',
     url: 'https://www.revolverfoodtruck.com/menus'
   },
   {
-    date: 'Nov 10th',
-    name: 'Deja Roux',
-    day: 'Friday',
-    url: ''
-  },
-  {
-    date: 'Nov 11th',
-    name: 'Seasoned Swine',
+    date: 'Dec 2nd',
+    name: 'Adobo',
     day: 'Saturday',
-    url: 'https://www.seasonedswine.com/food-truck'
-  },
-  {
-    date: 'Nov 12th',
-    name: 'TBD',
-    day: 'Sunday',
     url: ''
   },
   {
-    date: 'Nov 13th',
-    name: 'Cirque Kitchen',
+    date: 'Dec 3rd',
+    name: 'Deja Roux',
+    day: 'Sunday',
+    url: 'https://order.toasttab.com/online/deja-roux'
+  },
+  {
+    date: 'Dec 4th',
+    name: 'No Truck',
     day: 'Monday',
     url: ''
   },
   {
-    date: 'Nov 14th',
-    name: 'Big Belly BBQ',
+    date: 'Dec 5th',
+    name: 'No Truck',
     day: 'Tuesday',
     url: ''
   },
   {
-    date: 'Nov 15th',
-    name: 'Sizzle Food Truck',
+    date: 'Dec 6th',
+    name: 'Sizzle',
     day: 'Wednesday',
     url: 'https://www.sizzlefoodtruck.com/menu.html'
   },
   {
-    date: 'Nov 16th',
-    name: 'Woodhill Small Batch BBQ',
+    date: 'Dec 7th',
+    name: "Pepe's Tortas and Burgers",
     day: 'Thursday',
-    url: 'http://woodhillsmallbatchbbq.com/'
+    url: ''
   },
   {
-    date: 'Nov 17th',
-    name: 'Los Dos Potrillos',
+    date: 'Dec 8th',
+    name: 'Rolling Italian & Dapper Doughnuts',
     day: 'Friday',
-    url: 'http://www.los2potrillos.com/'
+    url: ''
   },
   {
-    date: 'Nov 18th',
-    name: 'Isan Thai',
+    date: 'Dec 9th',
+    name: 'Los Chamocos Tres',
     day: 'Saturday',
     url: ''
   },
   {
-    date: 'Nov 19th',
-    name: 'Tacos Al Sabor',
+    date: 'Dec 10th',
+    name: "Smokin' Zo's",
     day: 'Sunday',
     url: ''
   },
   {
-    date: 'Nov 20th',
-    name: 'Samos Grill & HipPOPs',
+    date: 'Dec 11th',
+    name: 'Krazy Thai',
     day: 'Monday',
-    url: 'https://roaminghunger.com/samos-grill/'
+    url: 'https://www.krazythaifood.com/menu/menu'
   },
   {
-    date: 'Nov 21st',
-    name: 'Turkish Chef',
+    date: 'Dec 12th',
+    name: 'Pink Tank',
     day: 'Tuesday',
     url: ''
   },
   {
-    date: 'Nov 22nd',
-    name: 'Samos Grill',
+    date: 'Dec 13th',
+    name: 'Arepas Caribbean Food',
     day: 'Wednesday',
-    url: 'https://roaminghunger.com/samos-grill/'
+    url: ''
   },
   {
-    date: 'Nov 23rd',
-    name: 'No Truck',
+    date: 'Dec 14th',
+    name: 'Seasoned Swine',
     day: 'Thursday',
-    url: ''
+    url: 'https://www.seasonedswine.com/food-truck'
   },
   {
-    date: 'Nov 24th',
-    name: 'No Truck',
+    date: 'Dec 15th',
+    name: 'Deja Roux',
     day: 'Friday',
-    url: ''
+    url: 'https://order.toasttab.com/online/deja-roux'
   },
   {
-    date: 'Nov 25th',
+    date: 'Dec 16th',
     name: 'Simply Le Crepes',
     day: 'Saturday',
     url: ''
   },
   {
-    date: 'Nov 26th',
-    name: 'Rolling Italian',
+    date: 'Dec 17th',
+    name: 'Samos Grill',
     day: 'Sunday',
-    url: 'https://rollingitalianonline.square.site/'
+    url: 'https://roaminghunger.com/samos-grill/'
   },
   {
-    date: 'Nov 27th',
-    name: 'TBD',
+    date: 'Dec 18th',
+    name: 'Arepas Caribbean Food',
     day: 'Monday',
     url: ''
   },
   {
-    date: 'Nov 28th',
-    name: 'Sizzle Food Truck',
+    date: 'Dec 19th',
+    name: 'Revolver',
     day: 'Tuesday',
-    url: 'https://www.sizzlefoodtruck.com/menu.html'
+    url: 'https://www.revolverfoodtruck.com/menus'
   },
   {
-    date: 'Nov 29th',
-    name: 'Areas Caribbean Food',
+    date: 'Dec 20th',
+    name: 'Rag Bag Bistro',
     day: 'Wednesday',
     url: ''
   },
   {
-    date: 'Nov 30th',
-    name: 'High Society Pizza',
+    date: 'Dec 21st',
+    name: 'Los Chamacos',
     day: 'Thursday',
+    url: 'https://www.facebook.com/people/El-chamacos-taco-dealer-my-legacy/100057675699460/'
+  },
+  {
+    date: 'Dec 22nd',
+    name: 'Deja Roux',
+    day: 'Friday',
+    url: 'https://order.toasttab.com/online/deja-roux'
+  },
+  {
+    date: 'Dec 23rd',
+    name: 'Krazy Thai',
+    day: 'Saturday',
+    url: 'https://www.krazythaifood.com/menu/menu'
+  },
+  {
+    date: 'Dec 24th',
+    name: 'No Truck',
+    day: 'Sunday',
+    url: ''
+  },
+  {
+    date: 'Dec 25th',
+    name: 'No Truck',
+    day: 'Monday',
+    url: ''
+  },
+  {
+    date: 'Dec 26th',
+    name: 'Turkish Chef',
+    day: 'Tuesday',
+    url: 'https://www.turkishchefonwheels.com/#8'
+  },
+  {
+    date: 'Dec 27th',
+    name: 'Arepas Caribbean & HipPops',
+    day: 'Wednesday',
+    url: 'https://gotruckster.com/food-truck/arepas-caribbean-food#menu'
+  },
+  {
+    date: 'Dec 28th',
+    name: 'Los Chamacos',
+    day: 'Thursday',
+    url: 'https://www.facebook.com/people/El-chamacos-taco-dealer-my-legacy/100057675699460/'
+  },
+  {
+    date: 'Dec 29th',
+    name: 'Sizzle',
+    day: 'Friday',
+    url: 'https://www.sizzlefoodtruck.com/menu.html'
+  },
+  {
+    date: 'Dec 30th',
+    name: 'Krazy Thai',
+    day: 'Saturday',
+    url: 'https://www.krazythaifood.com/menu/menu'
+  },
+  {
+    date: 'Dec 31st',
+    name: 'No Food Truck',
+    day: 'Sunday',
     url: ''
   }
 ]
