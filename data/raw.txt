@@ -1,32 +1,31 @@
-
-12/1 - Revolver
-12/2 - Adobo
-12/3 - Deja Roux
-12/4 - No Truck
-12/5 - No Truck
-12/6 - Sizzle 
-12/7 - Pepe's Tortas and Burgers
-12/8 - Rolling Italian & Dapper Doughnuts
-12/9 - Los Chamocos Tres
-12/10 - Smokin' Zo's
-12/11 - Krazy Thai
-12/12 - Pink Tank
-12/13 - Arepas Caribbean Food
-12/14 - Seasoned Swine
-12/15 - Deja Roux
-12/16 - Simply Le Crepes
-12/17 - Samos Grill
-12/18 - Arepas Caribbean Food
-12/19 - Revolver
-12/20 - Rag Bag Bistro
-12/21 - Los Chamacos
-12/22 - Deja Roux
-12/23 - Krazy Thai
-12/24 - No Truck
-12/25 - No Truck
-12/26 - Turkish Chef
-12/27 - Arepas Caribbean & HipPops
-12/28 - Los Chamacos
-12/29 - Sizzle
-12/30 - Krazy Thai
-12/31 - No Food Truck
+1/1 - No Truck
+1/2 - No Truck
+1/3 - Samos Grill
+1/4 - Sizzle
+1/5 - Pepe's Tortas
+1/6 - TBD
+1/7 - TBD
+1/8 - Krazy Thai
+1/9 - Revolver
+1/10 - Rolling Italian
+1/11 - Meyer's Munchies
+1/12 - Deja Roux
+1/13 - Gyro Kings
+1/14 - Big Belly Bro's BBQ
+1/15 - Rag Bag Bistro
+1/16 - Samos Grill
+1/17 - High Society Pizza
+1/18 - Woodhill Small Batch BBQ
+1/19 - Los Chamacos
+1/20 - Seasoned Swine
+1/21 - Pepe's Tortas
+1/22 - Turkish Chef
+1/23 - Pink Tank
+1/24 - Rolling Italian
+1/25 - Sizzle
+1/26 - Krazy Thai
+1/27 - Tula's Tapas
+1/28 - Gyro Kings
+1/29 - Rag Bag Bistro
+1/30 - Revolver
+1/31 - Lucky Bird

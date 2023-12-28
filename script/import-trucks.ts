@@ -2,21 +2,28 @@ const fs = require('fs')
 const { format, parse } = require('date-fns')
 
 const URL_MAP = {
-  'Rolling Italian & HipPOPs': 'https://rollingitalianonline.square.site',
-  Revolver: 'https://www.revolverfoodtruck.com/menus',
-  'Samos Grill': 'https://roaminghunger.com/samos-grill/',
-  'Woodhill Small Batch BBQ': 'http://woodhillsmallbatchbbq.com/',
-  'Los Dos': 'http://www.los2potrillos.com/',
-  'Los Chamacos': 'https://www.facebook.com/people/El-chamacos-taco-dealer-my-legacy/100057675699460/',
-  PinkTank: 'https://www.eatpinkgettanked.com/',
-  Sizzle: 'https://www.sizzlefoodtruck.com/menu.html',
-  'Rolling Italian': 'https://rollingitalianonline.square.site/',
-  'Seasoned Swine': 'https://www.seasonedswine.com/food-truck',
-  'Market 86': 'https://www.facebook.com/franktownmarket86/',
+  'Arepas Caribbean': 'https://gotruckster.com/food-truck/arepas-caribbean-food#menu',
+  "Big Belly Bro's BBQ": 'https://www.bigbellybrothersbbq.com/menu',
   'Deja Roux': 'https://order.toasttab.com/online/deja-roux',
+  'Gyro Kings': 'https://www.thegyrosking.com/edgewater-public-market-menu',
+  'High Society Pizza': 'https://www.highsocietypizza.com/menu',
   'Krazy Thai': 'https://www.krazythaifood.com/menu/menu',
+  'Los Chamacos': 'https://www.facebook.com/people/El-chamacos-taco-dealer-my-legacy/100057675699460/',
+  'Los Dos': 'http://www.los2potrillos.com/',
+  'Lucky Bird': 'https://luckybirdco.com/food-truck',
+  'Market 86': 'https://www.facebook.com/franktownmarket86/',
+  'Meyer’s Munchies': 'https://www.facebook.com/MeyersMunchies/',
+  "Pepe's Tortas": 'https://www.pepestortasandburgers.org/_files/ugd/92bced_54dd38fc6e4a40a0ac2327d2dd27aca1.pdf',
+  'Pink Tank': 'https://www.eatpinkgettanked.com/',
+  'Rag Bag Bistro': 'https://roaminghunger.com/ragbag-mobile/',
+  Revolver: 'https://www.revolverfoodtruck.com/menus',
+  'Rolling Italian': 'https://rollingitalianonline.square.site/',
+  'Samos Grill': 'https://roaminghunger.com/samos-grill/',
+  'Seasoned Swine': 'https://www.seasonedswine.com/food-truck',
+  Sizzle: 'https://www.sizzlefoodtruck.com/menu.html',
+  "Tula's Tapas": 'https://www.tulastapas.com',
   'Turkish Chef': 'https://www.turkishchefonwheels.com/#8',
-  'Arepas Caribbean': 'https://gotruckster.com/food-truck/arepas-caribbean-food#menu'
+  'Woodhill Small Batch BBQ': 'http://woodhillsmallbatchbbq.com/'
 }
 
 function formatInput(rawInput, dateFormat) {
