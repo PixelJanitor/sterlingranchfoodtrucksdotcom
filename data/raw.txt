@@ -1,31 +1,59 @@
-1/1 - No Truck
-1/2 - No Truck
-1/3 - Samos Grill
-1/4 - Sizzle
-1/5 - Pepe's Tortas
-1/6 - TBD
-1/7 - TBD
-1/8 - Krazy Thai
-1/9 - Revolver
-1/10 - Rolling Italian
-1/11 - Meyer's Munchies
-1/12 - Deja Roux
-1/13 - Gyro Kings
-1/14 - Big Belly Bro's BBQ
-1/15 - Rag Bag Bistro
-1/16 - Samos Grill
-1/17 - High Society Pizza
-1/18 - Woodhill Small Batch BBQ
-1/19 - Los Chamacos
-1/20 - Seasoned Swine
-1/21 - Pepe's Tortas
-1/22 - Turkish Chef
-1/23 - Pink Tank
-1/24 - Rolling Italian
-1/25 - Sizzle
-1/26 - Krazy Thai
-1/27 - Tula's Tapas
-1/28 - Gyro Kings
-1/29 - Rag Bag Bistro
-1/30 - Revolver
-1/31 - Lucky Bird
+1/31 - Lucky Bird & HipPOPs
+
+2/1 - Woodhill Small Batch BBQ
+
+2/2 - Seasoned Swine
+
+2/3 - Arepas Caribbean Food
+
+2/4 - Rolling Italian
+
+2/5 - Turkish Chef
+
+2/6 - Rag Bag Bistro
+
+2/7 - Pepe's Tortas & Burgers & Dapper Doughnuts
+
+2/8 - Meyer's Munchies
+
+2/9 -Deja Roux
+
+2/10 - Gyro Kings
+
+2/11 - Smokin' Zos
+
+2/12 - Lucky Bird
+
+2/13 - Seasoned Swine
+
+2/14 - Darleen's Dillaz
+
+2/15 - Sizzle
+
+2/16 - Big Belly Bro's BBQ
+
+2/17 - Tula's Tapas
+
+2/18 - Moontime Crepes
+
+2/19 - Arepas Caribbean Food
+
+2/20 - Turkish Chef
+
+2/21 - High Society Pizza & Dapper Doughnuts
+
+2/22 - Los Chamacos
+
+2/23 - Pink Tank
+
+2/24 - Denver Taco Truck
+
+2/25 - Big Belly Bro's BBQ 3 pm - 8 pm
+
+2/26 - Rag Bag Bistro
+
+2/27 - Revolver Food Truck & HipPOPs
+
+2/28 - Rolling Italian
+
+2/29 - Meyer's Munchies
