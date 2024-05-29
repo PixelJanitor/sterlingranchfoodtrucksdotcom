@@ -61,10 +61,6 @@ const Home: NextPage = () => {
             <CalendarDay key={index} day={day} isToday={getIsToday(day)} isPast={getIsPast(day)} />
           ))}
         </div>
-
-        <div className='pointer-events-none fixed inset-x-0 bottom-0 flex h-[256px] items-end justify-center bg-gradient-to-t from-white via-white pb-3 pt-50'>
-          <FoodTruck />
-        </div>
       </main>
     </>
   )
